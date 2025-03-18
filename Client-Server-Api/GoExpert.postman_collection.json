@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "8d609a20-fc2c-4ee7-8b37-b1db69ee9825",
+		"name": "GoExpert",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7673478"
+	},
+	"item": [
+		{
+			"name": "ClientServerApi",
+			"item": [
+				{
+					"name": "awesome dolar brl",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://economia.awesomeapi.com.br/json/last/USD-BRL",
+							"protocol": "https",
+							"host": [
+								"economia",
+								"awesomeapi",
+								"com",
+								"br"
+							],
+							"path": [
+								"json",
+								"last",
+								"USD-BRL"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Cotacao",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/plain",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "0.0.0.0:8080/cotacao",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "8080",
+							"path": [
+								"cotacao"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
